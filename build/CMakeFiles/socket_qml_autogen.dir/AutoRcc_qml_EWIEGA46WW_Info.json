@@ -1,0 +1,19 @@
+{
+	"BUILD_DIR" : "/home/jacobi/projects/qml/socket_qml/build/socket_qml_autogen",
+	"CMAKE_BINARY_DIR" : "/home/jacobi/projects/qml/socket_qml/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/jacobi/projects/qml/socket_qml/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/jacobi/projects/qml/socket_qml",
+	"CMAKE_SOURCE_DIR" : "/home/jacobi/projects/qml/socket_qml",
+	"INCLUDE_DIR" : "/home/jacobi/projects/qml/socket_qml/build/socket_qml_autogen/include",
+	"INPUTS" : [ "/home/jacobi/projects/qml/socket_qml/main.qml" ],
+	"LOCK_FILE" : "/home/jacobi/projects/qml/socket_qml/build/CMakeFiles/socket_qml_autogen.dir/AutoRcc_qml_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "qml" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_qml.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/jacobi/projects/qml/socket_qml/build/CMakeFiles/socket_qml_autogen.dir/AutoRcc_qml_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/jacobi/projects/qml/socket_qml/qml.qrc",
+	"VERBOSITY" : 0
+}
