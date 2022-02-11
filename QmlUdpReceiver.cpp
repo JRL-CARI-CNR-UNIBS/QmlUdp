@@ -69,7 +69,7 @@ void StringReceiver::createSocket()
     socket_.reset();
   }
   try {
-    socket_=std::make_shared<tcp_helper::UdpReceiver>( port_.toStdString(),stop_flag_);
+    socket_=std::make_shared<tcp_helper::UdpReceiver>( port_.toStdString());
     stop_flag_=false;
     connected_=true;
   }
@@ -80,7 +80,8 @@ void StringReceiver::createSocket()
     return;
   }
   thread_=std::thread(&StringReceiver::readThread,this);
-  read_thread_=std::thread(&tcp_helper::UdpReceiver::read,socket_);
+
+
 }
 
 StringReceiver::~StringReceiver()

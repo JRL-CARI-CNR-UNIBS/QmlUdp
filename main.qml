@@ -39,6 +39,8 @@ ApplicationWindow {
     UdpVideoStream {
         id: videoAdapter
         objectName: "VideoAdapter"
+        // @disable-check M16
+        port: "5000"
     }
 
     //Content Area

@@ -20,35 +20,35 @@
 QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
-struct qt_meta_stringdata_UdpCom__TcpSender_t {
+struct qt_meta_stringdata_UdpCom__StringSender_t {
     QByteArrayData data[9];
-    char stringdata0[87];
+    char stringdata0[90];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    qptrdiff(offsetof(qt_meta_stringdata_UdpCom__TcpSender_t, stringdata0) + ofs \
+    qptrdiff(offsetof(qt_meta_stringdata_UdpCom__StringSender_t, stringdata0) + ofs \
         - idx * sizeof(QByteArrayData)) \
     )
-static const qt_meta_stringdata_UdpCom__TcpSender_t qt_meta_stringdata_UdpCom__TcpSender = {
+static const qt_meta_stringdata_UdpCom__StringSender_t qt_meta_stringdata_UdpCom__StringSender = {
     {
-QT_MOC_LITERAL(0, 0, 17), // "UdpCom::TcpSender"
-QT_MOC_LITERAL(1, 18, 11), // "portChanged"
-QT_MOC_LITERAL(2, 30, 0), // ""
-QT_MOC_LITERAL(3, 31, 11), // "hostChanged"
-QT_MOC_LITERAL(4, 43, 13), // "stringChanged"
-QT_MOC_LITERAL(5, 57, 12), // "createSocket"
-QT_MOC_LITERAL(6, 70, 4), // "host"
-QT_MOC_LITERAL(7, 75, 4), // "port"
-QT_MOC_LITERAL(8, 80, 6) // "string"
+QT_MOC_LITERAL(0, 0, 20), // "UdpCom::StringSender"
+QT_MOC_LITERAL(1, 21, 11), // "portChanged"
+QT_MOC_LITERAL(2, 33, 0), // ""
+QT_MOC_LITERAL(3, 34, 11), // "hostChanged"
+QT_MOC_LITERAL(4, 46, 13), // "stringChanged"
+QT_MOC_LITERAL(5, 60, 12), // "createSocket"
+QT_MOC_LITERAL(6, 73, 4), // "host"
+QT_MOC_LITERAL(7, 78, 4), // "port"
+QT_MOC_LITERAL(8, 83, 6) // "string"
 
     },
-    "UdpCom::TcpSender\0portChanged\0\0"
+    "UdpCom::StringSender\0portChanged\0\0"
     "hostChanged\0stringChanged\0createSocket\0"
     "host\0port\0string"
 };
 #undef QT_MOC_LITERAL
 
-static const uint qt_meta_data_UdpCom__TcpSender[] = {
+static const uint qt_meta_data_UdpCom__StringSender[] = {
 
  // content:
        8,       // revision
@@ -90,10 +90,10 @@ static const uint qt_meta_data_UdpCom__TcpSender[] = {
        0        // eod
 };
 
-void UdpCom::TcpSender::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void UdpCom::StringSender::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
-        auto *_t = static_cast<TcpSender *>(_o);
+        auto *_t = static_cast<StringSender *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
         case 0: _t->portChanged(); break;
@@ -105,22 +105,22 @@ void UdpCom::TcpSender::qt_static_metacall(QObject *_o, QMetaObject::Call _c, in
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            using _t = void (TcpSender::*)();
-            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&TcpSender::portChanged)) {
+            using _t = void (StringSender::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&StringSender::portChanged)) {
                 *result = 0;
                 return;
             }
         }
         {
-            using _t = void (TcpSender::*)();
-            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&TcpSender::hostChanged)) {
+            using _t = void (StringSender::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&StringSender::hostChanged)) {
                 *result = 1;
                 return;
             }
         }
         {
-            using _t = void (TcpSender::*)();
-            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&TcpSender::stringChanged)) {
+            using _t = void (StringSender::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&StringSender::stringChanged)) {
                 *result = 2;
                 return;
             }
@@ -128,7 +128,7 @@ void UdpCom::TcpSender::qt_static_metacall(QObject *_o, QMetaObject::Call _c, in
     }
 #ifndef QT_NO_PROPERTIES
     else if (_c == QMetaObject::ReadProperty) {
-        auto *_t = static_cast<TcpSender *>(_o);
+        auto *_t = static_cast<StringSender *>(_o);
         Q_UNUSED(_t)
         void *_v = _a[0];
         switch (_id) {
@@ -138,7 +138,7 @@ void UdpCom::TcpSender::qt_static_metacall(QObject *_o, QMetaObject::Call _c, in
         default: break;
         }
     } else if (_c == QMetaObject::WriteProperty) {
-        auto *_t = static_cast<TcpSender *>(_o);
+        auto *_t = static_cast<StringSender *>(_o);
         Q_UNUSED(_t)
         void *_v = _a[0];
         switch (_id) {
@@ -153,30 +153,30 @@ void UdpCom::TcpSender::qt_static_metacall(QObject *_o, QMetaObject::Call _c, in
     Q_UNUSED(_a);
 }
 
-QT_INIT_METAOBJECT const QMetaObject UdpCom::TcpSender::staticMetaObject = { {
+QT_INIT_METAOBJECT const QMetaObject UdpCom::StringSender::staticMetaObject = { {
     &QObject::staticMetaObject,
-    qt_meta_stringdata_UdpCom__TcpSender.data,
-    qt_meta_data_UdpCom__TcpSender,
+    qt_meta_stringdata_UdpCom__StringSender.data,
+    qt_meta_data_UdpCom__StringSender,
     qt_static_metacall,
     nullptr,
     nullptr
 } };
 
 
-const QMetaObject *UdpCom::TcpSender::metaObject() const
+const QMetaObject *UdpCom::StringSender::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
-void *UdpCom::TcpSender::qt_metacast(const char *_clname)
+void *UdpCom::StringSender::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_UdpCom__TcpSender.stringdata0))
+    if (!strcmp(_clname, qt_meta_stringdata_UdpCom__StringSender.stringdata0))
         return static_cast<void*>(this);
     return QObject::qt_metacast(_clname);
 }
 
-int UdpCom::TcpSender::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int UdpCom::StringSender::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QObject::qt_metacall(_c, _id, _a);
     if (_id < 0)
@@ -211,19 +211,19 @@ int UdpCom::TcpSender::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 }
 
 // SIGNAL 0
-void UdpCom::TcpSender::portChanged()
+void UdpCom::StringSender::portChanged()
 {
     QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
 }
 
 // SIGNAL 1
-void UdpCom::TcpSender::hostChanged()
+void UdpCom::StringSender::hostChanged()
 {
     QMetaObject::activate(this, &staticMetaObject, 1, nullptr);
 }
 
 // SIGNAL 2
-void UdpCom::TcpSender::stringChanged()
+void UdpCom::StringSender::stringChanged()
 {
     QMetaObject::activate(this, &staticMetaObject, 2, nullptr);
 }

@@ -62,7 +62,7 @@ socket_qml_autogen/EWIEGA46WW/qrc_qml.cpp: CMakeFiles/socket_qml_autogen.dir/Aut
 socket_qml_autogen/EWIEGA46WW/qrc_qml.cpp: ../main.qml
 socket_qml_autogen/EWIEGA46WW/qrc_qml.cpp: /usr/lib/qt5/bin/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jacobi/projects/qml/socket_qml/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for qml.qrc"
-	/usr/bin/cmake -E cmake_autorcc /home/jacobi/projects/qml/socket_qml/build/CMakeFiles/socket_qml_autogen.dir/AutoRcc_qml_EWIEGA46WW_Info.json 
+	/usr/bin/cmake -E cmake_autorcc /home/jacobi/projects/qml/socket_qml/build/CMakeFiles/socket_qml_autogen.dir/AutoRcc_qml_EWIEGA46WW_Info.json Debug
 
 CMakeFiles/socket_qml.dir/socket_qml_autogen/mocs_compilation.cpp.o: CMakeFiles/socket_qml.dir/flags.make
 CMakeFiles/socket_qml.dir/socket_qml_autogen/mocs_compilation.cpp.o: socket_qml_autogen/mocs_compilation.cpp

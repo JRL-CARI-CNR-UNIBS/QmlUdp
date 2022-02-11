@@ -55,7 +55,7 @@ include CMakeFiles/socket_qml_autogen.dir/progress.make
 
 CMakeFiles/socket_qml_autogen:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jacobi/projects/qml/socket_qml/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target socket_qml"
-	/usr/bin/cmake -E cmake_autogen /home/jacobi/projects/qml/socket_qml/build/CMakeFiles/socket_qml_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E cmake_autogen /home/jacobi/projects/qml/socket_qml/build/CMakeFiles/socket_qml_autogen.dir/AutogenInfo.json Debug
 
 socket_qml_autogen: CMakeFiles/socket_qml_autogen
 socket_qml_autogen: CMakeFiles/socket_qml_autogen.dir/build.make

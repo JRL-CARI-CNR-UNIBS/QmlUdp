@@ -23,7 +23,7 @@ class UdpVideoStream : public QObject
   Q_PROPERTY(QAbstractVideoSurface* videoSurface READ videoSurface WRITE setVideoSurface NOTIFY signalVideoSurfaceChanged)
 public:
   explicit UdpVideoStream(QObject *parent = nullptr);
-  ~UdpVideoStream(){stop_flag_=true;}
+  ~UdpVideoStream();
   QAbstractVideoSurface *videoSurface() const;
   void setVideoSurface(QAbstractVideoSurface *videoSurface);
 

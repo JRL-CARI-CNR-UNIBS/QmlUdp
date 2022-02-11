@@ -65,6 +65,8 @@ iostream
 -
 boost/asio.hpp
 -
+boost/thread.hpp
+-
 queue
 -
 mutex
@@ -84,12 +86,6 @@ QmlUdpSender.h
 QDebug
 -
 iostream
--
-
-/home/jacobi/projects/qml/socket_qml/UdpVideoStream.cpp
-UdpVideoStream.h
--
-QDebug
 -
 
 /home/jacobi/projects/qml/socket_qml/build/socket_qml_autogen/EWIEGA46WW/moc_QmlUdpReceiver.cpp

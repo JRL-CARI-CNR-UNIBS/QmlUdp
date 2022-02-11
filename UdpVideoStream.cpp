@@ -14,6 +14,13 @@ UdpVideoStream::UdpVideoStream(QObject *parent)
   thread_=std::thread(&UdpVideoStream::receiverThread,this);
 }
 
+UdpVideoStream::~UdpVideoStream()
+{
+  stop_flag_=true;
+  if (thread_.joinable())
+    thread_.join();
+}
+
 QAbstractVideoSurface *UdpVideoStream::videoSurface() const
 {
   return mVideoSurface;
