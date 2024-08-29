@@ -1,4 +1,4 @@
-/home/jacobi/projects/qml/socket_qml/build/CMakeFiles/rebuild_cache.dir
-/home/jacobi/projects/qml/socket_qml/build/CMakeFiles/edit_cache.dir
-/home/jacobi/projects/qml/socket_qml/build/CMakeFiles/socket_qml.dir
-/home/jacobi/projects/qml/socket_qml/build/CMakeFiles/socket_qml_autogen.dir
+/home/jacobi/projects/socket_libs/socket_qml/build/CMakeFiles/rebuild_cache.dir
+/home/jacobi/projects/socket_libs/socket_qml/build/CMakeFiles/edit_cache.dir
+/home/jacobi/projects/socket_libs/socket_qml/build/CMakeFiles/socket_qml.dir
+/home/jacobi/projects/socket_libs/socket_qml/build/CMakeFiles/socket_qml_autogen.dir

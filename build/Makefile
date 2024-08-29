@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jacobi/projects/qml/socket_qml
+CMAKE_SOURCE_DIR = /home/jacobi/projects/socket_libs/socket_qml
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jacobi/projects/qml/socket_qml/build
+CMAKE_BINARY_DIR = /home/jacobi/projects/socket_libs/socket_qml/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacobi/projects/qml/socket_qml/build/CMakeFiles /home/jacobi/projects/qml/socket_qml/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacobi/projects/socket_libs/socket_qml/build/CMakeFiles /home/jacobi/projects/socket_libs/socket_qml/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacobi/projects/qml/socket_qml/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacobi/projects/socket_libs/socket_qml/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -163,59 +163,113 @@ PracticalSocket.cpp.s:
 	$(MAKE) -f CMakeFiles/socket_qml.dir/build.make CMakeFiles/socket_qml.dir/PracticalSocket.cpp.s
 .PHONY : PracticalSocket.cpp.s
 
-QmlUdpReceiver.o: QmlUdpReceiver.cpp.o
+QmlBinaryUdpReceiver.o: QmlBinaryUdpReceiver.cpp.o
 
-.PHONY : QmlUdpReceiver.o
-
-# target to build an object file
-QmlUdpReceiver.cpp.o:
-	$(MAKE) -f CMakeFiles/socket_qml.dir/build.make CMakeFiles/socket_qml.dir/QmlUdpReceiver.cpp.o
-.PHONY : QmlUdpReceiver.cpp.o
-
-QmlUdpReceiver.i: QmlUdpReceiver.cpp.i
-
-.PHONY : QmlUdpReceiver.i
-
-# target to preprocess a source file
-QmlUdpReceiver.cpp.i:
-	$(MAKE) -f CMakeFiles/socket_qml.dir/build.make CMakeFiles/socket_qml.dir/QmlUdpReceiver.cpp.i
-.PHONY : QmlUdpReceiver.cpp.i
-
-QmlUdpReceiver.s: QmlUdpReceiver.cpp.s
-
-.PHONY : QmlUdpReceiver.s
-
-# target to generate assembly for a file
-QmlUdpReceiver.cpp.s:
-	$(MAKE) -f CMakeFiles/socket_qml.dir/build.make CMakeFiles/socket_qml.dir/QmlUdpReceiver.cpp.s
-.PHONY : QmlUdpReceiver.cpp.s
-
-QmlUdpSender.o: QmlUdpSender.cpp.o
-
-.PHONY : QmlUdpSender.o
+.PHONY : QmlBinaryUdpReceiver.o
 
 # target to build an object file
-QmlUdpSender.cpp.o:
-	$(MAKE) -f CMakeFiles/socket_qml.dir/build.make CMakeFiles/socket_qml.dir/QmlUdpSender.cpp.o
-.PHONY : QmlUdpSender.cpp.o
+QmlBinaryUdpReceiver.cpp.o:
+	$(MAKE) -f CMakeFiles/socket_qml.dir/build.make CMakeFiles/socket_qml.dir/QmlBinaryUdpReceiver.cpp.o
+.PHONY : QmlBinaryUdpReceiver.cpp.o
 
-QmlUdpSender.i: QmlUdpSender.cpp.i
+QmlBinaryUdpReceiver.i: QmlBinaryUdpReceiver.cpp.i
 
-.PHONY : QmlUdpSender.i
+.PHONY : QmlBinaryUdpReceiver.i
 
 # target to preprocess a source file
-QmlUdpSender.cpp.i:
-	$(MAKE) -f CMakeFiles/socket_qml.dir/build.make CMakeFiles/socket_qml.dir/QmlUdpSender.cpp.i
-.PHONY : QmlUdpSender.cpp.i
+QmlBinaryUdpReceiver.cpp.i:
+	$(MAKE) -f CMakeFiles/socket_qml.dir/build.make CMakeFiles/socket_qml.dir/QmlBinaryUdpReceiver.cpp.i
+.PHONY : QmlBinaryUdpReceiver.cpp.i
 
-QmlUdpSender.s: QmlUdpSender.cpp.s
+QmlBinaryUdpReceiver.s: QmlBinaryUdpReceiver.cpp.s
 
-.PHONY : QmlUdpSender.s
+.PHONY : QmlBinaryUdpReceiver.s
 
 # target to generate assembly for a file
-QmlUdpSender.cpp.s:
-	$(MAKE) -f CMakeFiles/socket_qml.dir/build.make CMakeFiles/socket_qml.dir/QmlUdpSender.cpp.s
-.PHONY : QmlUdpSender.cpp.s
+QmlBinaryUdpReceiver.cpp.s:
+	$(MAKE) -f CMakeFiles/socket_qml.dir/build.make CMakeFiles/socket_qml.dir/QmlBinaryUdpReceiver.cpp.s
+.PHONY : QmlBinaryUdpReceiver.cpp.s
+
+QmlBinaryUdpSender.o: QmlBinaryUdpSender.cpp.o
+
+.PHONY : QmlBinaryUdpSender.o
+
+# target to build an object file
+QmlBinaryUdpSender.cpp.o:
+	$(MAKE) -f CMakeFiles/socket_qml.dir/build.make CMakeFiles/socket_qml.dir/QmlBinaryUdpSender.cpp.o
+.PHONY : QmlBinaryUdpSender.cpp.o
+
+QmlBinaryUdpSender.i: QmlBinaryUdpSender.cpp.i
+
+.PHONY : QmlBinaryUdpSender.i
+
+# target to preprocess a source file
+QmlBinaryUdpSender.cpp.i:
+	$(MAKE) -f CMakeFiles/socket_qml.dir/build.make CMakeFiles/socket_qml.dir/QmlBinaryUdpSender.cpp.i
+.PHONY : QmlBinaryUdpSender.cpp.i
+
+QmlBinaryUdpSender.s: QmlBinaryUdpSender.cpp.s
+
+.PHONY : QmlBinaryUdpSender.s
+
+# target to generate assembly for a file
+QmlBinaryUdpSender.cpp.s:
+	$(MAKE) -f CMakeFiles/socket_qml.dir/build.make CMakeFiles/socket_qml.dir/QmlBinaryUdpSender.cpp.s
+.PHONY : QmlBinaryUdpSender.cpp.s
+
+QmlStringUdpReceiver.o: QmlStringUdpReceiver.cpp.o
+
+.PHONY : QmlStringUdpReceiver.o
+
+# target to build an object file
+QmlStringUdpReceiver.cpp.o:
+	$(MAKE) -f CMakeFiles/socket_qml.dir/build.make CMakeFiles/socket_qml.dir/QmlStringUdpReceiver.cpp.o
+.PHONY : QmlStringUdpReceiver.cpp.o
+
+QmlStringUdpReceiver.i: QmlStringUdpReceiver.cpp.i
+
+.PHONY : QmlStringUdpReceiver.i
+
+# target to preprocess a source file
+QmlStringUdpReceiver.cpp.i:
+	$(MAKE) -f CMakeFiles/socket_qml.dir/build.make CMakeFiles/socket_qml.dir/QmlStringUdpReceiver.cpp.i
+.PHONY : QmlStringUdpReceiver.cpp.i
+
+QmlStringUdpReceiver.s: QmlStringUdpReceiver.cpp.s
+
+.PHONY : QmlStringUdpReceiver.s
+
+# target to generate assembly for a file
+QmlStringUdpReceiver.cpp.s:
+	$(MAKE) -f CMakeFiles/socket_qml.dir/build.make CMakeFiles/socket_qml.dir/QmlStringUdpReceiver.cpp.s
+.PHONY : QmlStringUdpReceiver.cpp.s
+
+QmlStringUdpSender.o: QmlStringUdpSender.cpp.o
+
+.PHONY : QmlStringUdpSender.o
+
+# target to build an object file
+QmlStringUdpSender.cpp.o:
+	$(MAKE) -f CMakeFiles/socket_qml.dir/build.make CMakeFiles/socket_qml.dir/QmlStringUdpSender.cpp.o
+.PHONY : QmlStringUdpSender.cpp.o
+
+QmlStringUdpSender.i: QmlStringUdpSender.cpp.i
+
+.PHONY : QmlStringUdpSender.i
+
+# target to preprocess a source file
+QmlStringUdpSender.cpp.i:
+	$(MAKE) -f CMakeFiles/socket_qml.dir/build.make CMakeFiles/socket_qml.dir/QmlStringUdpSender.cpp.i
+.PHONY : QmlStringUdpSender.cpp.i
+
+QmlStringUdpSender.s: QmlStringUdpSender.cpp.s
+
+.PHONY : QmlStringUdpSender.s
+
+# target to generate assembly for a file
+QmlStringUdpSender.cpp.s:
+	$(MAKE) -f CMakeFiles/socket_qml.dir/build.make CMakeFiles/socket_qml.dir/QmlStringUdpSender.cpp.s
+.PHONY : QmlStringUdpSender.cpp.s
 
 UdpVideoStream.o: UdpVideoStream.cpp.o
 
@@ -338,12 +392,18 @@ help:
 	@echo "... PracticalSocket.o"
 	@echo "... PracticalSocket.i"
 	@echo "... PracticalSocket.s"
-	@echo "... QmlUdpReceiver.o"
-	@echo "... QmlUdpReceiver.i"
-	@echo "... QmlUdpReceiver.s"
-	@echo "... QmlUdpSender.o"
-	@echo "... QmlUdpSender.i"
-	@echo "... QmlUdpSender.s"
+	@echo "... QmlBinaryUdpReceiver.o"
+	@echo "... QmlBinaryUdpReceiver.i"
+	@echo "... QmlBinaryUdpReceiver.s"
+	@echo "... QmlBinaryUdpSender.o"
+	@echo "... QmlBinaryUdpSender.i"
+	@echo "... QmlBinaryUdpSender.s"
+	@echo "... QmlStringUdpReceiver.o"
+	@echo "... QmlStringUdpReceiver.i"
+	@echo "... QmlStringUdpReceiver.s"
+	@echo "... QmlStringUdpSender.o"
+	@echo "... QmlStringUdpSender.i"
+	@echo "... QmlStringUdpSender.s"
 	@echo "... UdpVideoStream.o"
 	@echo "... UdpVideoStream.i"
 	@echo "... UdpVideoStream.s"

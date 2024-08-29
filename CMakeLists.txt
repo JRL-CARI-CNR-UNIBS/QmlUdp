@@ -20,6 +20,7 @@ SET(Boost_USE_STATIC_LIBS OFF)
 SET(Boost_USE_MULTITHREAD ON)
 find_package(Boost 1.40.0 REQUIRED system thread regex)
 find_package( OpenCV REQUIRED )
+#find_package( UdpSocketHelperCpp REQUIRED )
 
 
 #if(ANDROID)
@@ -41,8 +42,10 @@ include_directories(
 SET(APP_FILES
   qml.qrc
   main.cpp
-  QmlUdpReceiver.cpp
-  QmlUdpSender.cpp
+  QmlStringUdpReceiver.cpp
+  QmlStringUdpSender.cpp
+  QmlBinaryUdpReceiver.cpp
+  QmlBinaryUdpSender.cpp
   UdpVideoStream.cpp
   PracticalSocket.cpp
   )

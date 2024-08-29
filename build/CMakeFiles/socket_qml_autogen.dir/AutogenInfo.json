@@ -1,36 +1,46 @@
 {
-	"BUILD_DIR" : "/home/jacobi/projects/qml/socket_qml/build/socket_qml_autogen",
-	"CMAKE_BINARY_DIR" : "/home/jacobi/projects/qml/socket_qml/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/jacobi/projects/qml/socket_qml/build",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/jacobi/projects/qml/socket_qml",
+	"BUILD_DIR" : "/home/jacobi/projects/socket_libs/socket_qml/build/socket_qml_autogen",
+	"CMAKE_BINARY_DIR" : "/home/jacobi/projects/socket_libs/socket_qml/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/jacobi/projects/socket_libs/socket_qml/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/jacobi/projects/socket_libs/socket_qml",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
-	"CMAKE_SOURCE_DIR" : "/home/jacobi/projects/qml/socket_qml",
+	"CMAKE_SOURCE_DIR" : "/home/jacobi/projects/socket_libs/socket_qml",
 	"HEADERS" : 
 	[
 		[
-			"/home/jacobi/projects/qml/socket_qml/PracticalSocket.h",
+			"/home/jacobi/projects/socket_libs/socket_qml/PracticalSocket.h",
 			"MU",
 			"EWIEGA46WW/moc_PracticalSocket.cpp"
 		],
 		[
-			"/home/jacobi/projects/qml/socket_qml/QmlUdpReceiver.h",
+			"/home/jacobi/projects/socket_libs/socket_qml/QmlBinaryUdpReceiver.h",
 			"MU",
-			"EWIEGA46WW/moc_QmlUdpReceiver.cpp"
+			"EWIEGA46WW/moc_QmlBinaryUdpReceiver.cpp"
 		],
 		[
-			"/home/jacobi/projects/qml/socket_qml/QmlUdpSender.h",
+			"/home/jacobi/projects/socket_libs/socket_qml/QmlBinaryUdpSender.h",
 			"MU",
-			"EWIEGA46WW/moc_QmlUdpSender.cpp"
+			"EWIEGA46WW/moc_QmlBinaryUdpSender.cpp"
 		],
 		[
-			"/home/jacobi/projects/qml/socket_qml/UdpVideoStream.h",
+			"/home/jacobi/projects/socket_libs/socket_qml/QmlStringUdpReceiver.h",
+			"MU",
+			"EWIEGA46WW/moc_QmlStringUdpReceiver.cpp"
+		],
+		[
+			"/home/jacobi/projects/socket_libs/socket_qml/QmlStringUdpSender.h",
+			"MU",
+			"EWIEGA46WW/moc_QmlStringUdpSender.cpp"
+		],
+		[
+			"/home/jacobi/projects/socket_libs/socket_qml/UdpVideoStream.h",
 			"MU",
 			"EWIEGA46WW/moc_UdpVideoStream.cpp"
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/jacobi/projects/qml/socket_qml/build/socket_qml_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/jacobi/projects/qml/socket_qml/build/socket_qml_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/jacobi/projects/socket_libs/socket_qml/build/socket_qml_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/jacobi/projects/socket_libs/socket_qml/build/socket_qml_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"BOOST_ALL_NO_LIB",
@@ -55,8 +65,8 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/jacobi/projects/qml/socket_qml/build",
-		"/home/jacobi/projects/qml/socket_qml",
+		"/home/jacobi/projects/socket_libs/socket_qml/build",
+		"/home/jacobi/projects/socket_libs/socket_qml",
 		"/usr/include/x86_64-linux-gnu/qt5",
 		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
 		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
@@ -85,23 +95,43 @@
 		"-c",
 		"/usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/jacobi/projects/qml/socket_qml/build/socket_qml_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/jacobi/projects/socket_libs/socket_qml/build/socket_qml_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 4,
-	"PARSE_CACHE_FILE" : "/home/jacobi/projects/qml/socket_qml/build/CMakeFiles/socket_qml_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/jacobi/projects/socket_libs/socket_qml/build/CMakeFiles/socket_qml_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 5,
-	"SETTINGS_FILE" : "/home/jacobi/projects/qml/socket_qml/build/CMakeFiles/socket_qml_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/jacobi/projects/socket_libs/socket_qml/build/CMakeFiles/socket_qml_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/jacobi/projects/qml/socket_qml/PracticalSocket.cpp", "MU" ],
-		[ "/home/jacobi/projects/qml/socket_qml/QmlUdpReceiver.cpp", "MU" ],
-		[ "/home/jacobi/projects/qml/socket_qml/QmlUdpSender.cpp", "MU" ],
-		[ "/home/jacobi/projects/qml/socket_qml/UdpVideoStream.cpp", "MU" ],
-		[ "/home/jacobi/projects/qml/socket_qml/main.cpp", "MU" ]
+		[
+			"/home/jacobi/projects/socket_libs/socket_qml/PracticalSocket.cpp",
+			"MU"
+		],
+		[
+			"/home/jacobi/projects/socket_libs/socket_qml/QmlBinaryUdpReceiver.cpp",
+			"MU"
+		],
+		[
+			"/home/jacobi/projects/socket_libs/socket_qml/QmlBinaryUdpSender.cpp",
+			"MU"
+		],
+		[
+			"/home/jacobi/projects/socket_libs/socket_qml/QmlStringUdpReceiver.cpp",
+			"MU"
+		],
+		[
+			"/home/jacobi/projects/socket_libs/socket_qml/QmlStringUdpSender.cpp",
+			"MU"
+		],
+		[
+			"/home/jacobi/projects/socket_libs/socket_qml/UdpVideoStream.cpp",
+			"MU"
+		],
+		[ "/home/jacobi/projects/socket_libs/socket_qml/main.cpp", "MU" ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

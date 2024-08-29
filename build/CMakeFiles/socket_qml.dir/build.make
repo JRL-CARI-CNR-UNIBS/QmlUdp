@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jacobi/projects/qml/socket_qml
+CMAKE_SOURCE_DIR = /home/jacobi/projects/socket_libs/socket_qml
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jacobi/projects/qml/socket_qml/build
+CMAKE_BINARY_DIR = /home/jacobi/projects/socket_libs/socket_qml/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/socket_qml.dir/depend.make
@@ -61,106 +61,134 @@ socket_qml_autogen/EWIEGA46WW/qrc_qml.cpp: ../qml.qrc
 socket_qml_autogen/EWIEGA46WW/qrc_qml.cpp: CMakeFiles/socket_qml_autogen.dir/AutoRcc_qml_EWIEGA46WW_Info.json
 socket_qml_autogen/EWIEGA46WW/qrc_qml.cpp: ../main.qml
 socket_qml_autogen/EWIEGA46WW/qrc_qml.cpp: /usr/lib/qt5/bin/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jacobi/projects/qml/socket_qml/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for qml.qrc"
-	/usr/bin/cmake -E cmake_autorcc /home/jacobi/projects/qml/socket_qml/build/CMakeFiles/socket_qml_autogen.dir/AutoRcc_qml_EWIEGA46WW_Info.json Debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jacobi/projects/socket_libs/socket_qml/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for qml.qrc"
+	/usr/bin/cmake -E cmake_autorcc /home/jacobi/projects/socket_libs/socket_qml/build/CMakeFiles/socket_qml_autogen.dir/AutoRcc_qml_EWIEGA46WW_Info.json Debug
 
 CMakeFiles/socket_qml.dir/socket_qml_autogen/mocs_compilation.cpp.o: CMakeFiles/socket_qml.dir/flags.make
 CMakeFiles/socket_qml.dir/socket_qml_autogen/mocs_compilation.cpp.o: socket_qml_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jacobi/projects/qml/socket_qml/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/socket_qml.dir/socket_qml_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/socket_qml.dir/socket_qml_autogen/mocs_compilation.cpp.o -c /home/jacobi/projects/qml/socket_qml/build/socket_qml_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jacobi/projects/socket_libs/socket_qml/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/socket_qml.dir/socket_qml_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/socket_qml.dir/socket_qml_autogen/mocs_compilation.cpp.o -c /home/jacobi/projects/socket_libs/socket_qml/build/socket_qml_autogen/mocs_compilation.cpp
 
 CMakeFiles/socket_qml.dir/socket_qml_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/socket_qml.dir/socket_qml_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jacobi/projects/qml/socket_qml/build/socket_qml_autogen/mocs_compilation.cpp > CMakeFiles/socket_qml.dir/socket_qml_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jacobi/projects/socket_libs/socket_qml/build/socket_qml_autogen/mocs_compilation.cpp > CMakeFiles/socket_qml.dir/socket_qml_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/socket_qml.dir/socket_qml_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/socket_qml.dir/socket_qml_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jacobi/projects/qml/socket_qml/build/socket_qml_autogen/mocs_compilation.cpp -o CMakeFiles/socket_qml.dir/socket_qml_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jacobi/projects/socket_libs/socket_qml/build/socket_qml_autogen/mocs_compilation.cpp -o CMakeFiles/socket_qml.dir/socket_qml_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/socket_qml.dir/main.cpp.o: CMakeFiles/socket_qml.dir/flags.make
 CMakeFiles/socket_qml.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jacobi/projects/qml/socket_qml/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/socket_qml.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/socket_qml.dir/main.cpp.o -c /home/jacobi/projects/qml/socket_qml/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jacobi/projects/socket_libs/socket_qml/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/socket_qml.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/socket_qml.dir/main.cpp.o -c /home/jacobi/projects/socket_libs/socket_qml/main.cpp
 
 CMakeFiles/socket_qml.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/socket_qml.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jacobi/projects/qml/socket_qml/main.cpp > CMakeFiles/socket_qml.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jacobi/projects/socket_libs/socket_qml/main.cpp > CMakeFiles/socket_qml.dir/main.cpp.i
 
 CMakeFiles/socket_qml.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/socket_qml.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jacobi/projects/qml/socket_qml/main.cpp -o CMakeFiles/socket_qml.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jacobi/projects/socket_libs/socket_qml/main.cpp -o CMakeFiles/socket_qml.dir/main.cpp.s
 
-CMakeFiles/socket_qml.dir/QmlUdpReceiver.cpp.o: CMakeFiles/socket_qml.dir/flags.make
-CMakeFiles/socket_qml.dir/QmlUdpReceiver.cpp.o: ../QmlUdpReceiver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jacobi/projects/qml/socket_qml/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/socket_qml.dir/QmlUdpReceiver.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/socket_qml.dir/QmlUdpReceiver.cpp.o -c /home/jacobi/projects/qml/socket_qml/QmlUdpReceiver.cpp
+CMakeFiles/socket_qml.dir/QmlStringUdpReceiver.cpp.o: CMakeFiles/socket_qml.dir/flags.make
+CMakeFiles/socket_qml.dir/QmlStringUdpReceiver.cpp.o: ../QmlStringUdpReceiver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jacobi/projects/socket_libs/socket_qml/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/socket_qml.dir/QmlStringUdpReceiver.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/socket_qml.dir/QmlStringUdpReceiver.cpp.o -c /home/jacobi/projects/socket_libs/socket_qml/QmlStringUdpReceiver.cpp
 
-CMakeFiles/socket_qml.dir/QmlUdpReceiver.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/socket_qml.dir/QmlUdpReceiver.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jacobi/projects/qml/socket_qml/QmlUdpReceiver.cpp > CMakeFiles/socket_qml.dir/QmlUdpReceiver.cpp.i
+CMakeFiles/socket_qml.dir/QmlStringUdpReceiver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/socket_qml.dir/QmlStringUdpReceiver.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jacobi/projects/socket_libs/socket_qml/QmlStringUdpReceiver.cpp > CMakeFiles/socket_qml.dir/QmlStringUdpReceiver.cpp.i
 
-CMakeFiles/socket_qml.dir/QmlUdpReceiver.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/socket_qml.dir/QmlUdpReceiver.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jacobi/projects/qml/socket_qml/QmlUdpReceiver.cpp -o CMakeFiles/socket_qml.dir/QmlUdpReceiver.cpp.s
+CMakeFiles/socket_qml.dir/QmlStringUdpReceiver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/socket_qml.dir/QmlStringUdpReceiver.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jacobi/projects/socket_libs/socket_qml/QmlStringUdpReceiver.cpp -o CMakeFiles/socket_qml.dir/QmlStringUdpReceiver.cpp.s
 
-CMakeFiles/socket_qml.dir/QmlUdpSender.cpp.o: CMakeFiles/socket_qml.dir/flags.make
-CMakeFiles/socket_qml.dir/QmlUdpSender.cpp.o: ../QmlUdpSender.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jacobi/projects/qml/socket_qml/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/socket_qml.dir/QmlUdpSender.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/socket_qml.dir/QmlUdpSender.cpp.o -c /home/jacobi/projects/qml/socket_qml/QmlUdpSender.cpp
+CMakeFiles/socket_qml.dir/QmlStringUdpSender.cpp.o: CMakeFiles/socket_qml.dir/flags.make
+CMakeFiles/socket_qml.dir/QmlStringUdpSender.cpp.o: ../QmlStringUdpSender.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jacobi/projects/socket_libs/socket_qml/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/socket_qml.dir/QmlStringUdpSender.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/socket_qml.dir/QmlStringUdpSender.cpp.o -c /home/jacobi/projects/socket_libs/socket_qml/QmlStringUdpSender.cpp
 
-CMakeFiles/socket_qml.dir/QmlUdpSender.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/socket_qml.dir/QmlUdpSender.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jacobi/projects/qml/socket_qml/QmlUdpSender.cpp > CMakeFiles/socket_qml.dir/QmlUdpSender.cpp.i
+CMakeFiles/socket_qml.dir/QmlStringUdpSender.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/socket_qml.dir/QmlStringUdpSender.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jacobi/projects/socket_libs/socket_qml/QmlStringUdpSender.cpp > CMakeFiles/socket_qml.dir/QmlStringUdpSender.cpp.i
 
-CMakeFiles/socket_qml.dir/QmlUdpSender.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/socket_qml.dir/QmlUdpSender.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jacobi/projects/qml/socket_qml/QmlUdpSender.cpp -o CMakeFiles/socket_qml.dir/QmlUdpSender.cpp.s
+CMakeFiles/socket_qml.dir/QmlStringUdpSender.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/socket_qml.dir/QmlStringUdpSender.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jacobi/projects/socket_libs/socket_qml/QmlStringUdpSender.cpp -o CMakeFiles/socket_qml.dir/QmlStringUdpSender.cpp.s
+
+CMakeFiles/socket_qml.dir/QmlBinaryUdpReceiver.cpp.o: CMakeFiles/socket_qml.dir/flags.make
+CMakeFiles/socket_qml.dir/QmlBinaryUdpReceiver.cpp.o: ../QmlBinaryUdpReceiver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jacobi/projects/socket_libs/socket_qml/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/socket_qml.dir/QmlBinaryUdpReceiver.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/socket_qml.dir/QmlBinaryUdpReceiver.cpp.o -c /home/jacobi/projects/socket_libs/socket_qml/QmlBinaryUdpReceiver.cpp
+
+CMakeFiles/socket_qml.dir/QmlBinaryUdpReceiver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/socket_qml.dir/QmlBinaryUdpReceiver.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jacobi/projects/socket_libs/socket_qml/QmlBinaryUdpReceiver.cpp > CMakeFiles/socket_qml.dir/QmlBinaryUdpReceiver.cpp.i
+
+CMakeFiles/socket_qml.dir/QmlBinaryUdpReceiver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/socket_qml.dir/QmlBinaryUdpReceiver.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jacobi/projects/socket_libs/socket_qml/QmlBinaryUdpReceiver.cpp -o CMakeFiles/socket_qml.dir/QmlBinaryUdpReceiver.cpp.s
+
+CMakeFiles/socket_qml.dir/QmlBinaryUdpSender.cpp.o: CMakeFiles/socket_qml.dir/flags.make
+CMakeFiles/socket_qml.dir/QmlBinaryUdpSender.cpp.o: ../QmlBinaryUdpSender.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jacobi/projects/socket_libs/socket_qml/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/socket_qml.dir/QmlBinaryUdpSender.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/socket_qml.dir/QmlBinaryUdpSender.cpp.o -c /home/jacobi/projects/socket_libs/socket_qml/QmlBinaryUdpSender.cpp
+
+CMakeFiles/socket_qml.dir/QmlBinaryUdpSender.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/socket_qml.dir/QmlBinaryUdpSender.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jacobi/projects/socket_libs/socket_qml/QmlBinaryUdpSender.cpp > CMakeFiles/socket_qml.dir/QmlBinaryUdpSender.cpp.i
+
+CMakeFiles/socket_qml.dir/QmlBinaryUdpSender.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/socket_qml.dir/QmlBinaryUdpSender.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jacobi/projects/socket_libs/socket_qml/QmlBinaryUdpSender.cpp -o CMakeFiles/socket_qml.dir/QmlBinaryUdpSender.cpp.s
 
 CMakeFiles/socket_qml.dir/UdpVideoStream.cpp.o: CMakeFiles/socket_qml.dir/flags.make
 CMakeFiles/socket_qml.dir/UdpVideoStream.cpp.o: ../UdpVideoStream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jacobi/projects/qml/socket_qml/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/socket_qml.dir/UdpVideoStream.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/socket_qml.dir/UdpVideoStream.cpp.o -c /home/jacobi/projects/qml/socket_qml/UdpVideoStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jacobi/projects/socket_libs/socket_qml/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/socket_qml.dir/UdpVideoStream.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/socket_qml.dir/UdpVideoStream.cpp.o -c /home/jacobi/projects/socket_libs/socket_qml/UdpVideoStream.cpp
 
 CMakeFiles/socket_qml.dir/UdpVideoStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/socket_qml.dir/UdpVideoStream.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jacobi/projects/qml/socket_qml/UdpVideoStream.cpp > CMakeFiles/socket_qml.dir/UdpVideoStream.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jacobi/projects/socket_libs/socket_qml/UdpVideoStream.cpp > CMakeFiles/socket_qml.dir/UdpVideoStream.cpp.i
 
 CMakeFiles/socket_qml.dir/UdpVideoStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/socket_qml.dir/UdpVideoStream.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jacobi/projects/qml/socket_qml/UdpVideoStream.cpp -o CMakeFiles/socket_qml.dir/UdpVideoStream.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jacobi/projects/socket_libs/socket_qml/UdpVideoStream.cpp -o CMakeFiles/socket_qml.dir/UdpVideoStream.cpp.s
 
 CMakeFiles/socket_qml.dir/PracticalSocket.cpp.o: CMakeFiles/socket_qml.dir/flags.make
 CMakeFiles/socket_qml.dir/PracticalSocket.cpp.o: ../PracticalSocket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jacobi/projects/qml/socket_qml/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/socket_qml.dir/PracticalSocket.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/socket_qml.dir/PracticalSocket.cpp.o -c /home/jacobi/projects/qml/socket_qml/PracticalSocket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jacobi/projects/socket_libs/socket_qml/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/socket_qml.dir/PracticalSocket.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/socket_qml.dir/PracticalSocket.cpp.o -c /home/jacobi/projects/socket_libs/socket_qml/PracticalSocket.cpp
 
 CMakeFiles/socket_qml.dir/PracticalSocket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/socket_qml.dir/PracticalSocket.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jacobi/projects/qml/socket_qml/PracticalSocket.cpp > CMakeFiles/socket_qml.dir/PracticalSocket.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jacobi/projects/socket_libs/socket_qml/PracticalSocket.cpp > CMakeFiles/socket_qml.dir/PracticalSocket.cpp.i
 
 CMakeFiles/socket_qml.dir/PracticalSocket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/socket_qml.dir/PracticalSocket.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jacobi/projects/qml/socket_qml/PracticalSocket.cpp -o CMakeFiles/socket_qml.dir/PracticalSocket.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jacobi/projects/socket_libs/socket_qml/PracticalSocket.cpp -o CMakeFiles/socket_qml.dir/PracticalSocket.cpp.s
 
 CMakeFiles/socket_qml.dir/socket_qml_autogen/EWIEGA46WW/qrc_qml.cpp.o: CMakeFiles/socket_qml.dir/flags.make
 CMakeFiles/socket_qml.dir/socket_qml_autogen/EWIEGA46WW/qrc_qml.cpp.o: socket_qml_autogen/EWIEGA46WW/qrc_qml.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jacobi/projects/qml/socket_qml/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/socket_qml.dir/socket_qml_autogen/EWIEGA46WW/qrc_qml.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/socket_qml.dir/socket_qml_autogen/EWIEGA46WW/qrc_qml.cpp.o -c /home/jacobi/projects/qml/socket_qml/build/socket_qml_autogen/EWIEGA46WW/qrc_qml.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jacobi/projects/socket_libs/socket_qml/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/socket_qml.dir/socket_qml_autogen/EWIEGA46WW/qrc_qml.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/socket_qml.dir/socket_qml_autogen/EWIEGA46WW/qrc_qml.cpp.o -c /home/jacobi/projects/socket_libs/socket_qml/build/socket_qml_autogen/EWIEGA46WW/qrc_qml.cpp
 
 CMakeFiles/socket_qml.dir/socket_qml_autogen/EWIEGA46WW/qrc_qml.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/socket_qml.dir/socket_qml_autogen/EWIEGA46WW/qrc_qml.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jacobi/projects/qml/socket_qml/build/socket_qml_autogen/EWIEGA46WW/qrc_qml.cpp > CMakeFiles/socket_qml.dir/socket_qml_autogen/EWIEGA46WW/qrc_qml.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jacobi/projects/socket_libs/socket_qml/build/socket_qml_autogen/EWIEGA46WW/qrc_qml.cpp > CMakeFiles/socket_qml.dir/socket_qml_autogen/EWIEGA46WW/qrc_qml.cpp.i
 
 CMakeFiles/socket_qml.dir/socket_qml_autogen/EWIEGA46WW/qrc_qml.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/socket_qml.dir/socket_qml_autogen/EWIEGA46WW/qrc_qml.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jacobi/projects/qml/socket_qml/build/socket_qml_autogen/EWIEGA46WW/qrc_qml.cpp -o CMakeFiles/socket_qml.dir/socket_qml_autogen/EWIEGA46WW/qrc_qml.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jacobi/projects/socket_libs/socket_qml/build/socket_qml_autogen/EWIEGA46WW/qrc_qml.cpp -o CMakeFiles/socket_qml.dir/socket_qml_autogen/EWIEGA46WW/qrc_qml.cpp.s
 
 # Object files for target socket_qml
 socket_qml_OBJECTS = \
 "CMakeFiles/socket_qml.dir/socket_qml_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/socket_qml.dir/main.cpp.o" \
-"CMakeFiles/socket_qml.dir/QmlUdpReceiver.cpp.o" \
-"CMakeFiles/socket_qml.dir/QmlUdpSender.cpp.o" \
+"CMakeFiles/socket_qml.dir/QmlStringUdpReceiver.cpp.o" \
+"CMakeFiles/socket_qml.dir/QmlStringUdpSender.cpp.o" \
+"CMakeFiles/socket_qml.dir/QmlBinaryUdpReceiver.cpp.o" \
+"CMakeFiles/socket_qml.dir/QmlBinaryUdpSender.cpp.o" \
 "CMakeFiles/socket_qml.dir/UdpVideoStream.cpp.o" \
 "CMakeFiles/socket_qml.dir/PracticalSocket.cpp.o" \
 "CMakeFiles/socket_qml.dir/socket_qml_autogen/EWIEGA46WW/qrc_qml.cpp.o"
@@ -170,8 +198,10 @@ socket_qml_EXTERNAL_OBJECTS =
 
 socket_qml: CMakeFiles/socket_qml.dir/socket_qml_autogen/mocs_compilation.cpp.o
 socket_qml: CMakeFiles/socket_qml.dir/main.cpp.o
-socket_qml: CMakeFiles/socket_qml.dir/QmlUdpReceiver.cpp.o
-socket_qml: CMakeFiles/socket_qml.dir/QmlUdpSender.cpp.o
+socket_qml: CMakeFiles/socket_qml.dir/QmlStringUdpReceiver.cpp.o
+socket_qml: CMakeFiles/socket_qml.dir/QmlStringUdpSender.cpp.o
+socket_qml: CMakeFiles/socket_qml.dir/QmlBinaryUdpReceiver.cpp.o
+socket_qml: CMakeFiles/socket_qml.dir/QmlBinaryUdpSender.cpp.o
 socket_qml: CMakeFiles/socket_qml.dir/UdpVideoStream.cpp.o
 socket_qml: CMakeFiles/socket_qml.dir/PracticalSocket.cpp.o
 socket_qml: CMakeFiles/socket_qml.dir/socket_qml_autogen/EWIEGA46WW/qrc_qml.cpp.o
@@ -235,7 +265,7 @@ socket_qml: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.2.0
 socket_qml: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0
 socket_qml: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0
 socket_qml: CMakeFiles/socket_qml.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jacobi/projects/qml/socket_qml/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable socket_qml"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jacobi/projects/socket_libs/socket_qml/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable socket_qml"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/socket_qml.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -248,6 +278,6 @@ CMakeFiles/socket_qml.dir/clean:
 .PHONY : CMakeFiles/socket_qml.dir/clean
 
 CMakeFiles/socket_qml.dir/depend: socket_qml_autogen/EWIEGA46WW/qrc_qml.cpp
-	cd /home/jacobi/projects/qml/socket_qml/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jacobi/projects/qml/socket_qml /home/jacobi/projects/qml/socket_qml /home/jacobi/projects/qml/socket_qml/build /home/jacobi/projects/qml/socket_qml/build /home/jacobi/projects/qml/socket_qml/build/CMakeFiles/socket_qml.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jacobi/projects/socket_libs/socket_qml/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jacobi/projects/socket_libs/socket_qml /home/jacobi/projects/socket_libs/socket_qml /home/jacobi/projects/socket_libs/socket_qml/build /home/jacobi/projects/socket_libs/socket_qml/build /home/jacobi/projects/socket_libs/socket_qml/build/CMakeFiles/socket_qml.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/socket_qml.dir/depend
 

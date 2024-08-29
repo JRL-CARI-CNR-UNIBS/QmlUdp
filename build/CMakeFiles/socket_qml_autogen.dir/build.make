@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jacobi/projects/qml/socket_qml
+CMAKE_SOURCE_DIR = /home/jacobi/projects/socket_libs/socket_qml
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jacobi/projects/qml/socket_qml/build
+CMAKE_BINARY_DIR = /home/jacobi/projects/socket_libs/socket_qml/build
 
 # Utility rule file for socket_qml_autogen.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/jacobi/projects/qml/socket_qml/build
 include CMakeFiles/socket_qml_autogen.dir/progress.make
 
 CMakeFiles/socket_qml_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jacobi/projects/qml/socket_qml/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target socket_qml"
-	/usr/bin/cmake -E cmake_autogen /home/jacobi/projects/qml/socket_qml/build/CMakeFiles/socket_qml_autogen.dir/AutogenInfo.json Debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jacobi/projects/socket_libs/socket_qml/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target socket_qml"
+	/usr/bin/cmake -E cmake_autogen /home/jacobi/projects/socket_libs/socket_qml/build/CMakeFiles/socket_qml_autogen.dir/AutogenInfo.json Debug
 
 socket_qml_autogen: CMakeFiles/socket_qml_autogen
 socket_qml_autogen: CMakeFiles/socket_qml_autogen.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/socket_qml_autogen.dir/clean:
 .PHONY : CMakeFiles/socket_qml_autogen.dir/clean
 
 CMakeFiles/socket_qml_autogen.dir/depend:
-	cd /home/jacobi/projects/qml/socket_qml/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jacobi/projects/qml/socket_qml /home/jacobi/projects/qml/socket_qml /home/jacobi/projects/qml/socket_qml/build /home/jacobi/projects/qml/socket_qml/build /home/jacobi/projects/qml/socket_qml/build/CMakeFiles/socket_qml_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jacobi/projects/socket_libs/socket_qml/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jacobi/projects/socket_libs/socket_qml /home/jacobi/projects/socket_libs/socket_qml /home/jacobi/projects/socket_libs/socket_qml/build /home/jacobi/projects/socket_libs/socket_qml/build /home/jacobi/projects/socket_libs/socket_qml/build/CMakeFiles/socket_qml_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/socket_qml_autogen.dir/depend
 

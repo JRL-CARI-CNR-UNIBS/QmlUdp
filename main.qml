@@ -5,6 +5,8 @@ import QtQuick.Window 2.2
 import QtQuick 2.12
 import StringReceiver 1.0
 import StringSender 1.0
+import BinaryReceiver 1.0
+import BinarySender 1.0
 import UdpVideoStream 1.0
 
 ApplicationWindow {
@@ -34,6 +36,35 @@ ApplicationWindow {
         host: "localhost"
         // @disable-check M16
         string: "aa"
+    }
+
+    BinaryReceiver {
+        id: test_binary_rec
+        // @disable-check M16
+        name: "test_bin"
+        // @disable-check M16
+        port: "15004"
+        // @disable-check M16
+        size: 2
+        // @disable-check M16
+        onDataChanged:
+        {
+            button_rec_bin.x=data[0]
+            button_rec_bin.y=data[0]
+            console.log(data[0],data[1])
+        }
+    }
+
+    BinarySender {
+        id: test_binary_sender
+        // @disable-check M16
+        port: "15004"
+        // @disable-check M16
+        host: "localhost"
+        // @disable-check M16
+//        data[0]: 0
+        // @disable-check M16
+//        data[1]: 0
     }
 
     UdpVideoStream {
@@ -102,6 +133,46 @@ ApplicationWindow {
             anchors.fill: parent
             source: videoAdapter
         }
+    }
+
+    Button {
+        id: button_send_bin
+        x: -18
+        y: -16
+        text: qsTr("sent [300,400]")
+        onPressed:  {
+            test_binary_sender.data=[300, 400]
+        }
+        anchors.verticalCenterOffset: 115
+        anchors.horizontalCenterOffset: -204
+        anchors.verticalCenter: parent.verticalCenter
+        anchors.horizontalCenter: parent.horizontalCenter
+    }
+
+    Button {
+        id: button_rec_bin
+        x: 300
+        y: 400
+        text: qsTr("H")
+        //        anchors.verticalCenterOffset: 115
+        //        anchors.horizontalCenterOffset: 0
+        //        anchors.verticalCenter: parent.verticalCenter
+        //        anchors.horizontalCenter: parent.horizontalCenter
+    }
+
+    Button {
+        id: button_send_bin1
+        x: -8
+        y: -22
+        text: qsTr("sent [0,1]")
+        onPressed:  {
+            test_binary_sender.data=[0,1]
+        }
+
+        anchors.verticalCenterOffset: 180
+        anchors.horizontalCenterOffset: -204
+        anchors.verticalCenter: parent.verticalCenter
+        anchors.horizontalCenter: parent.horizontalCenter
     }
 }
 

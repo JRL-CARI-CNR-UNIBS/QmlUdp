@@ -4,13 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/jacobi/projects/qml/socket_qml/PracticalSocket.cpp" "/home/jacobi/projects/qml/socket_qml/build/CMakeFiles/socket_qml.dir/PracticalSocket.cpp.o"
-  "/home/jacobi/projects/qml/socket_qml/QmlUdpReceiver.cpp" "/home/jacobi/projects/qml/socket_qml/build/CMakeFiles/socket_qml.dir/QmlUdpReceiver.cpp.o"
-  "/home/jacobi/projects/qml/socket_qml/QmlUdpSender.cpp" "/home/jacobi/projects/qml/socket_qml/build/CMakeFiles/socket_qml.dir/QmlUdpSender.cpp.o"
-  "/home/jacobi/projects/qml/socket_qml/UdpVideoStream.cpp" "/home/jacobi/projects/qml/socket_qml/build/CMakeFiles/socket_qml.dir/UdpVideoStream.cpp.o"
-  "/home/jacobi/projects/qml/socket_qml/main.cpp" "/home/jacobi/projects/qml/socket_qml/build/CMakeFiles/socket_qml.dir/main.cpp.o"
-  "/home/jacobi/projects/qml/socket_qml/build/socket_qml_autogen/EWIEGA46WW/qrc_qml.cpp" "/home/jacobi/projects/qml/socket_qml/build/CMakeFiles/socket_qml.dir/socket_qml_autogen/EWIEGA46WW/qrc_qml.cpp.o"
-  "/home/jacobi/projects/qml/socket_qml/build/socket_qml_autogen/mocs_compilation.cpp" "/home/jacobi/projects/qml/socket_qml/build/CMakeFiles/socket_qml.dir/socket_qml_autogen/mocs_compilation.cpp.o"
+  "/home/jacobi/projects/socket_libs/socket_qml/PracticalSocket.cpp" "/home/jacobi/projects/socket_libs/socket_qml/build/CMakeFiles/socket_qml.dir/PracticalSocket.cpp.o"
+  "/home/jacobi/projects/socket_libs/socket_qml/QmlBinaryUdpReceiver.cpp" "/home/jacobi/projects/socket_libs/socket_qml/build/CMakeFiles/socket_qml.dir/QmlBinaryUdpReceiver.cpp.o"
+  "/home/jacobi/projects/socket_libs/socket_qml/QmlBinaryUdpSender.cpp" "/home/jacobi/projects/socket_libs/socket_qml/build/CMakeFiles/socket_qml.dir/QmlBinaryUdpSender.cpp.o"
+  "/home/jacobi/projects/socket_libs/socket_qml/QmlStringUdpReceiver.cpp" "/home/jacobi/projects/socket_libs/socket_qml/build/CMakeFiles/socket_qml.dir/QmlStringUdpReceiver.cpp.o"
+  "/home/jacobi/projects/socket_libs/socket_qml/QmlStringUdpSender.cpp" "/home/jacobi/projects/socket_libs/socket_qml/build/CMakeFiles/socket_qml.dir/QmlStringUdpSender.cpp.o"
+  "/home/jacobi/projects/socket_libs/socket_qml/UdpVideoStream.cpp" "/home/jacobi/projects/socket_libs/socket_qml/build/CMakeFiles/socket_qml.dir/UdpVideoStream.cpp.o"
+  "/home/jacobi/projects/socket_libs/socket_qml/main.cpp" "/home/jacobi/projects/socket_libs/socket_qml/build/CMakeFiles/socket_qml.dir/main.cpp.o"
+  "/home/jacobi/projects/socket_libs/socket_qml/build/socket_qml_autogen/EWIEGA46WW/qrc_qml.cpp" "/home/jacobi/projects/socket_libs/socket_qml/build/CMakeFiles/socket_qml.dir/socket_qml_autogen/EWIEGA46WW/qrc_qml.cpp.o"
+  "/home/jacobi/projects/socket_libs/socket_qml/build/socket_qml_autogen/mocs_compilation.cpp" "/home/jacobi/projects/socket_libs/socket_qml/build/CMakeFiles/socket_qml.dir/socket_qml_autogen/mocs_compilation.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
